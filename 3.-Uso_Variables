@@ -1,0 +1,13 @@
+#!/bin/bash
+una_variable=666
+Mi_Nombre:"Valeria"
+NOMBRES="Iñigo Asier Sten Roberto Pello"
+BOOLEANO=true
+echo "Echemos un ojo a las variables "
+echo "Un número: ${una_variable}"
+echo "Un nombre ${MI_NOMBRE}"
+echo "Un grupo de nombres: ${NOMBRES}"
+${0} : "uso de variables"
+${1} : 3
+${2} : 4
+echo "Has invocado el script pasándome ${0} eta ${1} "
