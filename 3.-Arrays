@@ -1,0 +1,18 @@
+#!/bin/bash
+asociaciones[0]="Gruslin"
+asociaciones[1]="Hackresi"
+asociaciones[2]="NavarradotNET"
+asociaciones[3]="Riberlug"
+partidos=("UPN" "PSN" "CDN" "IUN" "Nafarroa BAI" "RCN" )
+numeros=(15 23 45 42 23 1337 23 666 69)
+echo ${asociaciones[0]} es una asociación, ${partidos[1]} un partido
+echo "Tamaño: $#asociaciones"
+echo "Tamaño: ${$#{partidos}}"
+
+#!/bin/bash
+NOMBRE="Navarrux Live edition"
+echo ${NOMBRE} una parte ${NOMBRE:8} y otra ${NOMBRE:8:4}
+${variable:-valorpordefecto}
+SINVALOR=
+echo "Variable SINVALOR: ${SINVALOR:­31337} eta ${VACIO:­'Miguel Indurain'}"
+echo "La variable SINVALOR no tiene valor algun ${SINVALOR} "
