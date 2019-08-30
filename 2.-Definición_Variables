@@ -1,4 +1,0 @@
-#!/bin/bash
-SALUDO="Hola Mundo";
-echo -n "Este scrip te dice: "
-echo $SALUDO
