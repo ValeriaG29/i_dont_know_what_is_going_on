@@ -24,3 +24,7 @@ PROGRAMA='sniffit'
 echo "valor de PROGRAMA: ${PROGRAMA:+'tcpdump'} y ahora ${PROGRAMA}"
 ${variable:?valorpordefecto}
 echo "Valor de: ${EJEMPLO:?'Roberto'} y luego {EJEMPLO}"
+
+# ${!prefijo*} : nos devuelve una lista de las variables que comienzan  # con determinado prefijo.  
+# Podemos probar con el for:   
+for i in ${!P*};do echo $i ;don
